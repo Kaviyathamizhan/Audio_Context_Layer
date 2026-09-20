@@ -1,0 +1,11 @@
+torch
+transformers
+librosa
+soundfile
+numpy
+scipy
+pandas
+matplotlib
+reportlab
+pytest
+pyyaml
