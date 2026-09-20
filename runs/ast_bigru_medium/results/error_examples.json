@@ -1,0 +1,3914 @@
+[
+  {
+    "qid": "test_00000_q08",
+    "scene_id": "test_00000",
+    "question": "After the clapping sound begins, what is the next sound that begins?",
+    "options": [
+      "alarm clock",
+      "church bells",
+      "nothing",
+      "fireworks"
+    ],
+    "ground_truth_answer": "church bells",
+    "predicted_answer": "fireworks",
+    "oracle_answer": "church bells",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "church_bells",
+        "onset": 1.5,
+        "offset": 5.0,
+        "conf": 0.9126673936843872
+      },
+      {
+        "class": "clapping",
+        "onset": 2.6,
+        "offset": 5.0,
+        "conf": 0.8473713994026184
+      },
+      {
+        "class": "fireworks",
+        "onset": 4.6,
+        "offset": 7.2,
+        "conf": 0.9017615914344788
+      },
+      {
+        "class": "church_bells",
+        "onset": 5.5,
+        "offset": 6.0,
+        "conf": 0.872363269329071
+      },
+      {
+        "class": "church_bells",
+        "onset": 7.3,
+        "offset": 8.8,
+        "conf": 0.970410168170929
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "church_bells",
+        "label": "church bells",
+        "onset": 1.582,
+        "offset": 2.752,
+        "source": "5-179294-A-46.wav",
+        "rms_db": -24.9
+      },
+      {
+        "class": "clapping",
+        "label": "clapping",
+        "onset": 2.51,
+        "offset": 4.999,
+        "source": "5-221567-A-22.wav",
+        "rms_db": -26.1
+      },
+      {
+        "class": "church_bells",
+        "label": "church bells",
+        "onset": 3.981,
+        "offset": 6.234,
+        "source": "5-219044-A-46.wav",
+        "rms_db": -27.4
+      },
+      {
+        "class": "fireworks",
+        "label": "fireworks",
+        "onset": 5.134,
+        "offset": 7.155,
+        "source": "5-160614-H-48.wav",
+        "rms_db": -22.6
+      },
+      {
+        "class": "church_bells",
+        "label": "church bells",
+        "onset": 7.368,
+        "offset": 8.791,
+        "source": "5-219044-A-46.wav",
+        "rms_db": -22.2
+      }
+    ]
+  },
+  {
+    "qid": "test_00005_q05",
+    "scene_id": "test_00005",
+    "question": "How many times does the sneeze sound occur?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "ground_truth_answer": "3",
+    "predicted_answer": "2",
+    "oracle_answer": "3",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "sneezing",
+        "onset": 0.8,
+        "offset": 1.4,
+        "conf": 0.79345703125
+      },
+      {
+        "class": "door_wood_knock",
+        "onset": 2.3,
+        "offset": 3.7,
+        "conf": 0.8789759874343872
+      },
+      {
+        "class": "vacuum_cleaner",
+        "onset": 3.5,
+        "offset": 5.8,
+        "conf": 0.9711276888847351
+      },
+      {
+        "class": "sneezing",
+        "onset": 8.4,
+        "offset": 9.1,
+        "conf": 0.8793247938156128
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "sneezing",
+        "label": "sneeze",
+        "onset": 0.759,
+        "offset": 1.207,
+        "source": "5-194533-A-21.wav",
+        "rms_db": -26.1
+      },
+      {
+        "class": "door_wood_knock",
+        "label": "door knock",
+        "onset": 2.186,
+        "offset": 3.283,
+        "source": "5-235644-A-30.wav",
+        "rms_db": -20.5
+      },
+      {
+        "class": "sneezing",
+        "label": "sneeze",
+        "onset": 3.201,
+        "offset": 3.649,
+        "source": "5-194533-A-21.wav",
+        "rms_db": -23.8
+      },
+      {
+        "class": "vacuum_cleaner",
+        "label": "vacuum cleaner",
+        "onset": 3.564,
+        "offset": 5.638,
+        "source": "5-182010-A-36.wav",
+        "rms_db": -22.4
+      },
+      {
+        "class": "sneezing",
+        "label": "sneeze",
+        "onset": 8.328,
+        "offset": 9.128,
+        "source": "5-220026-A-21.wav",
+        "rms_db": -17.9
+      }
+    ]
+  },
+  {
+    "qid": "test_00005_q08",
+    "scene_id": "test_00005",
+    "question": "After the door knock sound begins, what is the next sound that begins?",
+    "options": [
+      "sneeze",
+      "vacuum cleaner",
+      "church bells",
+      "nothing"
+    ],
+    "ground_truth_answer": "sneeze",
+    "predicted_answer": "vacuum cleaner",
+    "oracle_answer": "sneeze",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "sneezing",
+        "onset": 0.8,
+        "offset": 1.4,
+        "conf": 0.79345703125
+      },
+      {
+        "class": "door_wood_knock",
+        "onset": 2.3,
+        "offset": 3.7,
+        "conf": 0.8789759874343872
+      },
+      {
+        "class": "vacuum_cleaner",
+        "onset": 3.5,
+        "offset": 5.8,
+        "conf": 0.9711276888847351
+      },
+      {
+        "class": "sneezing",
+        "onset": 8.4,
+        "offset": 9.1,
+        "conf": 0.8793247938156128
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "sneezing",
+        "label": "sneeze",
+        "onset": 0.759,
+        "offset": 1.207,
+        "source": "5-194533-A-21.wav",
+        "rms_db": -26.1
+      },
+      {
+        "class": "door_wood_knock",
+        "label": "door knock",
+        "onset": 2.186,
+        "offset": 3.283,
+        "source": "5-235644-A-30.wav",
+        "rms_db": -20.5
+      },
+      {
+        "class": "sneezing",
+        "label": "sneeze",
+        "onset": 3.201,
+        "offset": 3.649,
+        "source": "5-194533-A-21.wav",
+        "rms_db": -23.8
+      },
+      {
+        "class": "vacuum_cleaner",
+        "label": "vacuum cleaner",
+        "onset": 3.564,
+        "offset": 5.638,
+        "source": "5-182010-A-36.wav",
+        "rms_db": -22.4
+      },
+      {
+        "class": "sneezing",
+        "label": "sneeze",
+        "onset": 8.328,
+        "offset": 9.128,
+        "source": "5-220026-A-21.wav",
+        "rms_db": -17.9
+      }
+    ]
+  },
+  {
+    "qid": "test_00005_q13",
+    "scene_id": "test_00005",
+    "question": "Are the door knock sound and the vacuum cleaner sound heard at the same time?",
+    "options": [
+      "yes",
+      "no"
+    ],
+    "ground_truth_answer": "no",
+    "predicted_answer": "yes",
+    "oracle_answer": "no",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "sneezing",
+        "onset": 0.8,
+        "offset": 1.4,
+        "conf": 0.79345703125
+      },
+      {
+        "class": "door_wood_knock",
+        "onset": 2.3,
+        "offset": 3.7,
+        "conf": 0.8789759874343872
+      },
+      {
+        "class": "vacuum_cleaner",
+        "onset": 3.5,
+        "offset": 5.8,
+        "conf": 0.9711276888847351
+      },
+      {
+        "class": "sneezing",
+        "onset": 8.4,
+        "offset": 9.1,
+        "conf": 0.8793247938156128
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "sneezing",
+        "label": "sneeze",
+        "onset": 0.759,
+        "offset": 1.207,
+        "source": "5-194533-A-21.wav",
+        "rms_db": -26.1
+      },
+      {
+        "class": "door_wood_knock",
+        "label": "door knock",
+        "onset": 2.186,
+        "offset": 3.283,
+        "source": "5-235644-A-30.wav",
+        "rms_db": -20.5
+      },
+      {
+        "class": "sneezing",
+        "label": "sneeze",
+        "onset": 3.201,
+        "offset": 3.649,
+        "source": "5-194533-A-21.wav",
+        "rms_db": -23.8
+      },
+      {
+        "class": "vacuum_cleaner",
+        "label": "vacuum cleaner",
+        "onset": 3.564,
+        "offset": 5.638,
+        "source": "5-182010-A-36.wav",
+        "rms_db": -22.4
+      },
+      {
+        "class": "sneezing",
+        "label": "sneeze",
+        "onset": 8.328,
+        "offset": 9.128,
+        "source": "5-220026-A-21.wav",
+        "rms_db": -17.9
+      }
+    ]
+  },
+  {
+    "qid": "test_00006_q09",
+    "scene_id": "test_00006",
+    "question": "What sound begins just before the engine sound begins?",
+    "options": [
+      "laughter",
+      "siren",
+      "footsteps",
+      "nothing"
+    ],
+    "ground_truth_answer": "siren",
+    "predicted_answer": "laughter",
+    "oracle_answer": "siren",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "siren",
+        "onset": 1.4,
+        "offset": 2.6,
+        "conf": 0.6367594599723816
+      },
+      {
+        "class": "train",
+        "onset": 1.6,
+        "offset": 2.2,
+        "conf": 0.6416829228401184
+      },
+      {
+        "class": "engine",
+        "onset": 4.3,
+        "offset": 6.8,
+        "conf": 0.93310546875
+      },
+      {
+        "class": "siren",
+        "onset": 6.6,
+        "offset": 8.7,
+        "conf": 0.9620535969734192
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "siren",
+        "label": "siren",
+        "onset": 1.333,
+        "offset": 2.762,
+        "source": "5-150409-A-42.wav",
+        "rms_db": -19.0
+      },
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 4.343,
+        "offset": 6.843,
+        "source": "5-240671-A-44.wav",
+        "rms_db": -20.2
+      },
+      {
+        "class": "siren",
+        "label": "siren",
+        "onset": 6.244,
+        "offset": 8.744,
+        "source": "5-117122-A-42.wav",
+        "rms_db": -25.8
+      }
+    ]
+  },
+  {
+    "qid": "test_00007_q00",
+    "scene_id": "test_00007",
+    "question": "Which of the following sounds can be heard in this recording?",
+    "options": [
+      "vacuum cleaner",
+      "clapping",
+      "helicopter",
+      "rooster"
+    ],
+    "ground_truth_answer": "helicopter",
+    "predicted_answer": "vacuum cleaner",
+    "oracle_answer": "helicopter",
+    "error_category": "missed_event",
+    "predicted_timeline": [
+      {
+        "class": "engine",
+        "onset": 0.4,
+        "offset": 2.5,
+        "conf": 0.9739583134651184
+      },
+      {
+        "class": "footsteps",
+        "onset": 2.4,
+        "offset": 3.5,
+        "conf": 0.9398526549339294
+      },
+      {
+        "class": "train",
+        "onset": 4.2,
+        "offset": 7.3,
+        "conf": 0.9434539079666138
+      },
+      {
+        "class": "engine",
+        "onset": 7.2,
+        "offset": 8.1,
+        "conf": 0.9305012822151184
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 0.334,
+        "offset": 2.478,
+        "source": "5-243783-A-44.wav",
+        "rms_db": -16.8
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 1.634,
+        "offset": 3.519,
+        "source": "5-244310-A-25.wav",
+        "rms_db": -25.8
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 4.197,
+        "offset": 6.405,
+        "source": "5-263490-A-25.wav",
+        "rms_db": -16.1
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 5.681,
+        "offset": 7.391,
+        "source": "5-205898-A-40.wav",
+        "rms_db": -23.8
+      },
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 7.128,
+        "offset": 8.133,
+        "source": "5-243783-A-44.wav",
+        "rms_db": -22.5
+      }
+    ]
+  },
+  {
+    "qid": "test_00007_q02",
+    "scene_id": "test_00007",
+    "question": "Is the helicopter sound present in this audio?",
+    "options": [
+      "yes",
+      "no"
+    ],
+    "ground_truth_answer": "yes",
+    "predicted_answer": "no",
+    "oracle_answer": "yes",
+    "error_category": "missed_event",
+    "predicted_timeline": [
+      {
+        "class": "engine",
+        "onset": 0.4,
+        "offset": 2.5,
+        "conf": 0.9739583134651184
+      },
+      {
+        "class": "footsteps",
+        "onset": 2.4,
+        "offset": 3.5,
+        "conf": 0.9398526549339294
+      },
+      {
+        "class": "train",
+        "onset": 4.2,
+        "offset": 7.3,
+        "conf": 0.9434539079666138
+      },
+      {
+        "class": "engine",
+        "onset": 7.2,
+        "offset": 8.1,
+        "conf": 0.9305012822151184
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 0.334,
+        "offset": 2.478,
+        "source": "5-243783-A-44.wav",
+        "rms_db": -16.8
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 1.634,
+        "offset": 3.519,
+        "source": "5-244310-A-25.wav",
+        "rms_db": -25.8
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 4.197,
+        "offset": 6.405,
+        "source": "5-263490-A-25.wav",
+        "rms_db": -16.1
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 5.681,
+        "offset": 7.391,
+        "source": "5-205898-A-40.wav",
+        "rms_db": -23.8
+      },
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 7.128,
+        "offset": 8.133,
+        "source": "5-243783-A-44.wav",
+        "rms_db": -22.5
+      }
+    ]
+  },
+  {
+    "qid": "test_00007_q04",
+    "scene_id": "test_00007",
+    "question": "How many separate helicopter sounds are there in the recording?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "ground_truth_answer": "1",
+    "predicted_answer": "0",
+    "oracle_answer": "1",
+    "error_category": "missed_event",
+    "predicted_timeline": [
+      {
+        "class": "engine",
+        "onset": 0.4,
+        "offset": 2.5,
+        "conf": 0.9739583134651184
+      },
+      {
+        "class": "footsteps",
+        "onset": 2.4,
+        "offset": 3.5,
+        "conf": 0.9398526549339294
+      },
+      {
+        "class": "train",
+        "onset": 4.2,
+        "offset": 7.3,
+        "conf": 0.9434539079666138
+      },
+      {
+        "class": "engine",
+        "onset": 7.2,
+        "offset": 8.1,
+        "conf": 0.9305012822151184
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 0.334,
+        "offset": 2.478,
+        "source": "5-243783-A-44.wav",
+        "rms_db": -16.8
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 1.634,
+        "offset": 3.519,
+        "source": "5-244310-A-25.wav",
+        "rms_db": -25.8
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 4.197,
+        "offset": 6.405,
+        "source": "5-263490-A-25.wav",
+        "rms_db": -16.1
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 5.681,
+        "offset": 7.391,
+        "source": "5-205898-A-40.wav",
+        "rms_db": -23.8
+      },
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 7.128,
+        "offset": 8.133,
+        "source": "5-243783-A-44.wav",
+        "rms_db": -22.5
+      }
+    ]
+  },
+  {
+    "qid": "test_00007_q08",
+    "scene_id": "test_00007",
+    "question": "After the helicopter sound begins, what is the next sound that begins?",
+    "options": [
+      "footsteps",
+      "engine",
+      "nothing",
+      "glass breaking"
+    ],
+    "ground_truth_answer": "engine",
+    "predicted_answer": "nothing",
+    "oracle_answer": "engine",
+    "error_category": "missed_event",
+    "predicted_timeline": [
+      {
+        "class": "engine",
+        "onset": 0.4,
+        "offset": 2.5,
+        "conf": 0.9739583134651184
+      },
+      {
+        "class": "footsteps",
+        "onset": 2.4,
+        "offset": 3.5,
+        "conf": 0.9398526549339294
+      },
+      {
+        "class": "train",
+        "onset": 4.2,
+        "offset": 7.3,
+        "conf": 0.9434539079666138
+      },
+      {
+        "class": "engine",
+        "onset": 7.2,
+        "offset": 8.1,
+        "conf": 0.9305012822151184
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 0.334,
+        "offset": 2.478,
+        "source": "5-243783-A-44.wav",
+        "rms_db": -16.8
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 1.634,
+        "offset": 3.519,
+        "source": "5-244310-A-25.wav",
+        "rms_db": -25.8
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 4.197,
+        "offset": 6.405,
+        "source": "5-263490-A-25.wav",
+        "rms_db": -16.1
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 5.681,
+        "offset": 7.391,
+        "source": "5-205898-A-40.wav",
+        "rms_db": -23.8
+      },
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 7.128,
+        "offset": 8.133,
+        "source": "5-243783-A-44.wav",
+        "rms_db": -22.5
+      }
+    ]
+  },
+  {
+    "qid": "test_00007_q09",
+    "scene_id": "test_00007",
+    "question": "Which sound was the last one to start before the helicopter sound starts?",
+    "options": [
+      "alarm clock",
+      "engine",
+      "nothing",
+      "footsteps"
+    ],
+    "ground_truth_answer": "footsteps",
+    "predicted_answer": "nothing",
+    "oracle_answer": "footsteps",
+    "error_category": "missed_event",
+    "predicted_timeline": [
+      {
+        "class": "engine",
+        "onset": 0.4,
+        "offset": 2.5,
+        "conf": 0.9739583134651184
+      },
+      {
+        "class": "footsteps",
+        "onset": 2.4,
+        "offset": 3.5,
+        "conf": 0.9398526549339294
+      },
+      {
+        "class": "train",
+        "onset": 4.2,
+        "offset": 7.3,
+        "conf": 0.9434539079666138
+      },
+      {
+        "class": "engine",
+        "onset": 7.2,
+        "offset": 8.1,
+        "conf": 0.9305012822151184
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 0.334,
+        "offset": 2.478,
+        "source": "5-243783-A-44.wav",
+        "rms_db": -16.8
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 1.634,
+        "offset": 3.519,
+        "source": "5-244310-A-25.wav",
+        "rms_db": -25.8
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 4.197,
+        "offset": 6.405,
+        "source": "5-263490-A-25.wav",
+        "rms_db": -16.1
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 5.681,
+        "offset": 7.391,
+        "source": "5-205898-A-40.wav",
+        "rms_db": -23.8
+      },
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 7.128,
+        "offset": 8.133,
+        "source": "5-243783-A-44.wav",
+        "rms_db": -22.5
+      }
+    ]
+  },
+  {
+    "qid": "test_00009_q04",
+    "scene_id": "test_00009",
+    "question": "How many times does the cough sound occur?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "ground_truth_answer": "4",
+    "predicted_answer": "3",
+    "oracle_answer": "4",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "sneezing",
+        "onset": 1.0,
+        "offset": 1.4,
+        "conf": 0.7471923828125
+      },
+      {
+        "class": "coughing",
+        "onset": 2.4,
+        "offset": 4.1,
+        "conf": 0.9119083285331726
+      },
+      {
+        "class": "coughing",
+        "onset": 5.8,
+        "offset": 6.2,
+        "conf": 0.945556640625
+      },
+      {
+        "class": "vacuum_cleaner",
+        "onset": 7.0,
+        "offset": 8.5,
+        "conf": 0.91015625
+      },
+      {
+        "class": "coughing",
+        "onset": 7.9,
+        "offset": 9.2,
+        "conf": 0.852125883102417
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "coughing",
+        "label": "cough",
+        "onset": 0.915,
+        "offset": 1.427,
+        "source": "5-178997-A-24.wav",
+        "rms_db": -18.1
+      },
+      {
+        "class": "coughing",
+        "label": "cough",
+        "onset": 2.356,
+        "offset": 3.508,
+        "source": "5-208761-A-24.wav",
+        "rms_db": -27.1
+      },
+      {
+        "class": "sneezing",
+        "label": "sneeze",
+        "onset": 3.499,
+        "offset": 4.139,
+        "source": "5-202220-A-21.wav",
+        "rms_db": -26.5
+      },
+      {
+        "class": "coughing",
+        "label": "cough",
+        "onset": 5.839,
+        "offset": 6.255,
+        "source": "5-204604-A-24.wav",
+        "rms_db": -18.2
+      },
+      {
+        "class": "vacuum_cleaner",
+        "label": "vacuum cleaner",
+        "onset": 7.034,
+        "offset": 8.547,
+        "source": "5-182012-A-36.wav",
+        "rms_db": -17.9
+      },
+      {
+        "class": "coughing",
+        "label": "cough",
+        "onset": 7.84,
+        "offset": 9.184,
+        "source": "5-184871-A-24.wav",
+        "rms_db": -16.8
+      }
+    ]
+  },
+  {
+    "qid": "test_00009_q07",
+    "scene_id": "test_00009",
+    "question": "Is the sneeze sound heard earlier than the cough sound?",
+    "options": [
+      "yes",
+      "no"
+    ],
+    "ground_truth_answer": "no",
+    "predicted_answer": "yes",
+    "oracle_answer": "no",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "sneezing",
+        "onset": 1.0,
+        "offset": 1.4,
+        "conf": 0.7471923828125
+      },
+      {
+        "class": "coughing",
+        "onset": 2.4,
+        "offset": 4.1,
+        "conf": 0.9119083285331726
+      },
+      {
+        "class": "coughing",
+        "onset": 5.8,
+        "offset": 6.2,
+        "conf": 0.945556640625
+      },
+      {
+        "class": "vacuum_cleaner",
+        "onset": 7.0,
+        "offset": 8.5,
+        "conf": 0.91015625
+      },
+      {
+        "class": "coughing",
+        "onset": 7.9,
+        "offset": 9.2,
+        "conf": 0.852125883102417
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "coughing",
+        "label": "cough",
+        "onset": 0.915,
+        "offset": 1.427,
+        "source": "5-178997-A-24.wav",
+        "rms_db": -18.1
+      },
+      {
+        "class": "coughing",
+        "label": "cough",
+        "onset": 2.356,
+        "offset": 3.508,
+        "source": "5-208761-A-24.wav",
+        "rms_db": -27.1
+      },
+      {
+        "class": "sneezing",
+        "label": "sneeze",
+        "onset": 3.499,
+        "offset": 4.139,
+        "source": "5-202220-A-21.wav",
+        "rms_db": -26.5
+      },
+      {
+        "class": "coughing",
+        "label": "cough",
+        "onset": 5.839,
+        "offset": 6.255,
+        "source": "5-204604-A-24.wav",
+        "rms_db": -18.2
+      },
+      {
+        "class": "vacuum_cleaner",
+        "label": "vacuum cleaner",
+        "onset": 7.034,
+        "offset": 8.547,
+        "source": "5-182012-A-36.wav",
+        "rms_db": -17.9
+      },
+      {
+        "class": "coughing",
+        "label": "cough",
+        "onset": 7.84,
+        "offset": 9.184,
+        "source": "5-184871-A-24.wav",
+        "rms_db": -16.8
+      }
+    ]
+  },
+  {
+    "qid": "test_00011_q10",
+    "scene_id": "test_00011",
+    "question": "What is the most likely reason for the first sound in the recording?",
+    "options": [
+      "a motor vehicle or engine is running nearby",
+      "an emergency vehicle is passing or approaching",
+      "a visitor is trying to get attention at the door",
+      "an audience is applauding"
+    ],
+    "ground_truth_answer": "an emergency vehicle is passing or approaching",
+    "predicted_answer": "a motor vehicle or engine is running nearby",
+    "oracle_answer": "an emergency vehicle is passing or approaching",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "car_horn",
+        "onset": 3.2,
+        "offset": 3.8,
+        "conf": 0.5828450322151184
+      },
+      {
+        "class": "siren",
+        "onset": 3.4,
+        "offset": 3.9,
+        "conf": 0.59716796875
+      },
+      {
+        "class": "footsteps",
+        "onset": 3.9,
+        "offset": 6.5,
+        "conf": 0.9056114554405212
+      },
+      {
+        "class": "engine",
+        "onset": 6.3,
+        "offset": 8.9,
+        "conf": 0.9749473929405212
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "siren",
+        "label": "siren",
+        "onset": 3.157,
+        "offset": 4.245,
+        "source": "5-160551-A-42.wav",
+        "rms_db": -24.0
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 3.907,
+        "offset": 6.407,
+        "source": "5-244310-A-25.wav",
+        "rms_db": -23.2
+      },
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 6.395,
+        "offset": 8.895,
+        "source": "5-243773-A-44.wav",
+        "rms_db": -25.0
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 9.215,
+        "offset": 9.631,
+        "source": "5-234263-A-25.wav",
+        "rms_db": -27.4
+      }
+    ]
+  },
+  {
+    "qid": "test_00011_q11",
+    "scene_id": "test_00011",
+    "question": "Do the footsteps sound and the siren sound overlap in time?",
+    "options": [
+      "yes",
+      "no"
+    ],
+    "ground_truth_answer": "yes",
+    "predicted_answer": "no",
+    "oracle_answer": "yes",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "car_horn",
+        "onset": 3.2,
+        "offset": 3.8,
+        "conf": 0.5828450322151184
+      },
+      {
+        "class": "siren",
+        "onset": 3.4,
+        "offset": 3.9,
+        "conf": 0.59716796875
+      },
+      {
+        "class": "footsteps",
+        "onset": 3.9,
+        "offset": 6.5,
+        "conf": 0.9056114554405212
+      },
+      {
+        "class": "engine",
+        "onset": 6.3,
+        "offset": 8.9,
+        "conf": 0.9749473929405212
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "siren",
+        "label": "siren",
+        "onset": 3.157,
+        "offset": 4.245,
+        "source": "5-160551-A-42.wav",
+        "rms_db": -24.0
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 3.907,
+        "offset": 6.407,
+        "source": "5-244310-A-25.wav",
+        "rms_db": -23.2
+      },
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 6.395,
+        "offset": 8.895,
+        "source": "5-243773-A-44.wav",
+        "rms_db": -25.0
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 9.215,
+        "offset": 9.631,
+        "source": "5-234263-A-25.wav",
+        "rms_db": -27.4
+      }
+    ]
+  },
+  {
+    "qid": "test_00015_q00",
+    "scene_id": "test_00015",
+    "question": "Which sound is present in this audio clip?",
+    "options": [
+      "train",
+      "helicopter",
+      "crow",
+      "sheep"
+    ],
+    "ground_truth_answer": "helicopter",
+    "predicted_answer": "train",
+    "oracle_answer": "helicopter",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "car_horn",
+        "onset": 0.7,
+        "offset": 4.5,
+        "conf": 0.9638671875
+      },
+      {
+        "class": "helicopter",
+        "onset": 2.0,
+        "offset": 2.5,
+        "conf": 0.595898449420929
+      },
+      {
+        "class": "car_horn",
+        "onset": 5.1,
+        "offset": 7.0,
+        "conf": 0.8936575055122375
+      },
+      {
+        "class": "train",
+        "onset": 6.5,
+        "offset": 9.3,
+        "conf": 0.7175772786140442
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 0.771,
+        "offset": 1.887,
+        "source": "5-179868-A-43.wav",
+        "rms_db": -16.7
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 1.886,
+        "offset": 3.185,
+        "source": "5-177957-C-40.wav",
+        "rms_db": -18.7
+      },
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 2.508,
+        "offset": 4.469,
+        "source": "5-179865-A-43.wav",
+        "rms_db": -22.4
+      },
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 5.139,
+        "offset": 6.931,
+        "source": "5-179866-A-43.wav",
+        "rms_db": -17.5
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 6.974,
+        "offset": 9.474,
+        "source": "5-220955-A-40.wav",
+        "rms_db": -17.9
+      }
+    ]
+  },
+  {
+    "qid": "test_00015_q03",
+    "scene_id": "test_00015",
+    "question": "Is the train sound present in this audio?",
+    "options": [
+      "yes",
+      "no"
+    ],
+    "ground_truth_answer": "no",
+    "predicted_answer": "yes",
+    "oracle_answer": "no",
+    "error_category": "spurious_event",
+    "predicted_timeline": [
+      {
+        "class": "car_horn",
+        "onset": 0.7,
+        "offset": 4.5,
+        "conf": 0.9638671875
+      },
+      {
+        "class": "helicopter",
+        "onset": 2.0,
+        "offset": 2.5,
+        "conf": 0.595898449420929
+      },
+      {
+        "class": "car_horn",
+        "onset": 5.1,
+        "offset": 7.0,
+        "conf": 0.8936575055122375
+      },
+      {
+        "class": "train",
+        "onset": 6.5,
+        "offset": 9.3,
+        "conf": 0.7175772786140442
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 0.771,
+        "offset": 1.887,
+        "source": "5-179868-A-43.wav",
+        "rms_db": -16.7
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 1.886,
+        "offset": 3.185,
+        "source": "5-177957-C-40.wav",
+        "rms_db": -18.7
+      },
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 2.508,
+        "offset": 4.469,
+        "source": "5-179865-A-43.wav",
+        "rms_db": -22.4
+      },
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 5.139,
+        "offset": 6.931,
+        "source": "5-179866-A-43.wav",
+        "rms_db": -17.5
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 6.974,
+        "offset": 9.474,
+        "source": "5-220955-A-40.wav",
+        "rms_db": -17.9
+      }
+    ]
+  },
+  {
+    "qid": "test_00015_q04",
+    "scene_id": "test_00015",
+    "question": "How many times does the car horn sound occur?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "ground_truth_answer": "3",
+    "predicted_answer": "2",
+    "oracle_answer": "3",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "car_horn",
+        "onset": 0.7,
+        "offset": 4.5,
+        "conf": 0.9638671875
+      },
+      {
+        "class": "helicopter",
+        "onset": 2.0,
+        "offset": 2.5,
+        "conf": 0.595898449420929
+      },
+      {
+        "class": "car_horn",
+        "onset": 5.1,
+        "offset": 7.0,
+        "conf": 0.8936575055122375
+      },
+      {
+        "class": "train",
+        "onset": 6.5,
+        "offset": 9.3,
+        "conf": 0.7175772786140442
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 0.771,
+        "offset": 1.887,
+        "source": "5-179868-A-43.wav",
+        "rms_db": -16.7
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 1.886,
+        "offset": 3.185,
+        "source": "5-177957-C-40.wav",
+        "rms_db": -18.7
+      },
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 2.508,
+        "offset": 4.469,
+        "source": "5-179865-A-43.wav",
+        "rms_db": -22.4
+      },
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 5.139,
+        "offset": 6.931,
+        "source": "5-179866-A-43.wav",
+        "rms_db": -17.5
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 6.974,
+        "offset": 9.474,
+        "source": "5-220955-A-40.wav",
+        "rms_db": -17.9
+      }
+    ]
+  },
+  {
+    "qid": "test_00015_q05",
+    "scene_id": "test_00015",
+    "question": "How many separate helicopter sounds are there in the recording?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "ground_truth_answer": "2",
+    "predicted_answer": "1",
+    "oracle_answer": "2",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "car_horn",
+        "onset": 0.7,
+        "offset": 4.5,
+        "conf": 0.9638671875
+      },
+      {
+        "class": "helicopter",
+        "onset": 2.0,
+        "offset": 2.5,
+        "conf": 0.595898449420929
+      },
+      {
+        "class": "car_horn",
+        "onset": 5.1,
+        "offset": 7.0,
+        "conf": 0.8936575055122375
+      },
+      {
+        "class": "train",
+        "onset": 6.5,
+        "offset": 9.3,
+        "conf": 0.7175772786140442
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 0.771,
+        "offset": 1.887,
+        "source": "5-179868-A-43.wav",
+        "rms_db": -16.7
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 1.886,
+        "offset": 3.185,
+        "source": "5-177957-C-40.wav",
+        "rms_db": -18.7
+      },
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 2.508,
+        "offset": 4.469,
+        "source": "5-179865-A-43.wav",
+        "rms_db": -22.4
+      },
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 5.139,
+        "offset": 6.931,
+        "source": "5-179866-A-43.wav",
+        "rms_db": -17.5
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 6.974,
+        "offset": 9.474,
+        "source": "5-220955-A-40.wav",
+        "rms_db": -17.9
+      }
+    ]
+  },
+  {
+    "qid": "test_00015_q09",
+    "scene_id": "test_00015",
+    "question": "What is the most likely reason for the longest sound in the recording?",
+    "options": [
+      "an audience is applauding",
+      "an alarm was set to wake someone or mark a time",
+      "a person is clearing their throat or is unwell",
+      "a helicopter is flying overhead"
+    ],
+    "ground_truth_answer": "a helicopter is flying overhead",
+    "predicted_answer": "an audience is applauding",
+    "oracle_answer": "a helicopter is flying overhead",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "car_horn",
+        "onset": 0.7,
+        "offset": 4.5,
+        "conf": 0.9638671875
+      },
+      {
+        "class": "helicopter",
+        "onset": 2.0,
+        "offset": 2.5,
+        "conf": 0.595898449420929
+      },
+      {
+        "class": "car_horn",
+        "onset": 5.1,
+        "offset": 7.0,
+        "conf": 0.8936575055122375
+      },
+      {
+        "class": "train",
+        "onset": 6.5,
+        "offset": 9.3,
+        "conf": 0.7175772786140442
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 0.771,
+        "offset": 1.887,
+        "source": "5-179868-A-43.wav",
+        "rms_db": -16.7
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 1.886,
+        "offset": 3.185,
+        "source": "5-177957-C-40.wav",
+        "rms_db": -18.7
+      },
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 2.508,
+        "offset": 4.469,
+        "source": "5-179865-A-43.wav",
+        "rms_db": -22.4
+      },
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 5.139,
+        "offset": 6.931,
+        "source": "5-179866-A-43.wav",
+        "rms_db": -17.5
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 6.974,
+        "offset": 9.474,
+        "source": "5-220955-A-40.wav",
+        "rms_db": -17.9
+      }
+    ]
+  },
+  {
+    "qid": "test_00015_q10",
+    "scene_id": "test_00015",
+    "question": "Which sound lasts the longest?",
+    "options": [
+      "train",
+      "rooster",
+      "helicopter",
+      "car horn"
+    ],
+    "ground_truth_answer": "helicopter",
+    "predicted_answer": "car horn",
+    "oracle_answer": "helicopter",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "car_horn",
+        "onset": 0.7,
+        "offset": 4.5,
+        "conf": 0.9638671875
+      },
+      {
+        "class": "helicopter",
+        "onset": 2.0,
+        "offset": 2.5,
+        "conf": 0.595898449420929
+      },
+      {
+        "class": "car_horn",
+        "onset": 5.1,
+        "offset": 7.0,
+        "conf": 0.8936575055122375
+      },
+      {
+        "class": "train",
+        "onset": 6.5,
+        "offset": 9.3,
+        "conf": 0.7175772786140442
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 0.771,
+        "offset": 1.887,
+        "source": "5-179868-A-43.wav",
+        "rms_db": -16.7
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 1.886,
+        "offset": 3.185,
+        "source": "5-177957-C-40.wav",
+        "rms_db": -18.7
+      },
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 2.508,
+        "offset": 4.469,
+        "source": "5-179865-A-43.wav",
+        "rms_db": -22.4
+      },
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 5.139,
+        "offset": 6.931,
+        "source": "5-179866-A-43.wav",
+        "rms_db": -17.5
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 6.974,
+        "offset": 9.474,
+        "source": "5-220955-A-40.wav",
+        "rms_db": -17.9
+      }
+    ]
+  },
+  {
+    "qid": "test_00017_q05",
+    "scene_id": "test_00017",
+    "question": "How many times does the sheep sound occur?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "ground_truth_answer": "1",
+    "predicted_answer": "2",
+    "oracle_answer": "1",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "sheep",
+        "onset": 0.7,
+        "offset": 1.1,
+        "conf": 0.741455078125
+      },
+      {
+        "class": "sheep",
+        "onset": 1.4,
+        "offset": 2.4,
+        "conf": 0.8899902105331421
+      },
+      {
+        "class": "crow",
+        "onset": 3.4,
+        "offset": 4.9,
+        "conf": 0.9732747673988342
+      },
+      {
+        "class": "crow",
+        "onset": 6.3,
+        "offset": 8.6,
+        "conf": 0.984268844127655
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "sheep",
+        "label": "sheep",
+        "onset": 0.756,
+        "offset": 2.402,
+        "source": "5-200329-C-8.wav",
+        "rms_db": -27.5
+      },
+      {
+        "class": "cow",
+        "label": "cow",
+        "onset": 3.039,
+        "offset": 3.967,
+        "source": "5-194899-A-3.wav",
+        "rms_db": -26.7
+      },
+      {
+        "class": "crow",
+        "label": "crow",
+        "onset": 3.417,
+        "offset": 4.868,
+        "source": "5-222041-A-9.wav",
+        "rms_db": -18.8
+      },
+      {
+        "class": "crow",
+        "label": "crow",
+        "onset": 6.407,
+        "offset": 8.556,
+        "source": "5-213836-D-9.wav",
+        "rms_db": -17.3
+      }
+    ]
+  },
+  {
+    "qid": "test_00017_q08",
+    "scene_id": "test_00017",
+    "question": "After the sheep sound begins, what is the next sound that begins?",
+    "options": [
+      "laughter",
+      "nothing",
+      "crow",
+      "cow"
+    ],
+    "ground_truth_answer": "cow",
+    "predicted_answer": "crow",
+    "oracle_answer": "cow",
+    "error_category": "missed_event",
+    "predicted_timeline": [
+      {
+        "class": "sheep",
+        "onset": 0.7,
+        "offset": 1.1,
+        "conf": 0.741455078125
+      },
+      {
+        "class": "sheep",
+        "onset": 1.4,
+        "offset": 2.4,
+        "conf": 0.8899902105331421
+      },
+      {
+        "class": "crow",
+        "onset": 3.4,
+        "offset": 4.9,
+        "conf": 0.9732747673988342
+      },
+      {
+        "class": "crow",
+        "onset": 6.3,
+        "offset": 8.6,
+        "conf": 0.984268844127655
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "sheep",
+        "label": "sheep",
+        "onset": 0.756,
+        "offset": 2.402,
+        "source": "5-200329-C-8.wav",
+        "rms_db": -27.5
+      },
+      {
+        "class": "cow",
+        "label": "cow",
+        "onset": 3.039,
+        "offset": 3.967,
+        "source": "5-194899-A-3.wav",
+        "rms_db": -26.7
+      },
+      {
+        "class": "crow",
+        "label": "crow",
+        "onset": 3.417,
+        "offset": 4.868,
+        "source": "5-222041-A-9.wav",
+        "rms_db": -18.8
+      },
+      {
+        "class": "crow",
+        "label": "crow",
+        "onset": 6.407,
+        "offset": 8.556,
+        "source": "5-213836-D-9.wav",
+        "rms_db": -17.3
+      }
+    ]
+  },
+  {
+    "qid": "test_00018_q08",
+    "scene_id": "test_00018",
+    "question": "After the fireworks sound begins, what is the next sound that begins?",
+    "options": [
+      "nothing",
+      "church bells",
+      "sneeze",
+      "alarm clock"
+    ],
+    "ground_truth_answer": "church bells",
+    "predicted_answer": "nothing",
+    "oracle_answer": "church bells",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "fireworks",
+        "onset": 3.3,
+        "offset": 5.6,
+        "conf": 0.9300908446311951
+      },
+      {
+        "class": "clapping",
+        "onset": 4.9,
+        "offset": 5.6,
+        "conf": 0.767578125
+      },
+      {
+        "class": "church_bells",
+        "onset": 6.4,
+        "offset": 8.9,
+        "conf": 0.9315820336341858
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "fireworks",
+        "label": "fireworks",
+        "onset": 3.125,
+        "offset": 5.625,
+        "source": "5-160614-A-48.wav",
+        "rms_db": -22.6
+      },
+      {
+        "class": "church_bells",
+        "label": "church bells",
+        "onset": 6.399,
+        "offset": 8.899,
+        "source": "5-219044-A-46.wav",
+        "rms_db": -26.4
+      }
+    ]
+  },
+  {
+    "qid": "test_00022_q05",
+    "scene_id": "test_00022",
+    "question": "How many separate helicopter sounds are there in the recording?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "ground_truth_answer": "2",
+    "predicted_answer": "3",
+    "oracle_answer": "2",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "helicopter",
+        "onset": 1.7,
+        "offset": 3.7,
+        "conf": 0.637194812297821
+      },
+      {
+        "class": "engine",
+        "onset": 1.8,
+        "offset": 3.6,
+        "conf": 0.799560546875
+      },
+      {
+        "class": "helicopter",
+        "onset": 4.3,
+        "offset": 6.8,
+        "conf": 0.8691210746765137
+      },
+      {
+        "class": "engine",
+        "onset": 6.2,
+        "offset": 6.7,
+        "conf": 0.5567382574081421
+      },
+      {
+        "class": "helicopter",
+        "onset": 7.4,
+        "offset": 8.7,
+        "conf": 0.8218148946762085
+      },
+      {
+        "class": "engine",
+        "onset": 7.8,
+        "offset": 8.4,
+        "conf": 0.5486246943473816
+      },
+      {
+        "class": "footsteps",
+        "onset": 9.0,
+        "offset": 9.4,
+        "conf": 0.8095703125
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 1.723,
+        "offset": 3.765,
+        "source": "5-209992-B-44.wav",
+        "rms_db": -19.8
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 4.314,
+        "offset": 6.814,
+        "source": "5-177957-E-40.wav",
+        "rms_db": -24.2
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 7.416,
+        "offset": 8.685,
+        "source": "5-177957-B-40.wav",
+        "rms_db": -19.0
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 9.023,
+        "offset": 9.439,
+        "source": "5-234263-A-25.wav",
+        "rms_db": -19.2
+      }
+    ]
+  },
+  {
+    "qid": "test_00022_q07",
+    "scene_id": "test_00022",
+    "question": "Does the helicopter sound occur before the engine sound?",
+    "options": [
+      "yes",
+      "no"
+    ],
+    "ground_truth_answer": "no",
+    "predicted_answer": "yes",
+    "oracle_answer": "no",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "helicopter",
+        "onset": 1.7,
+        "offset": 3.7,
+        "conf": 0.637194812297821
+      },
+      {
+        "class": "engine",
+        "onset": 1.8,
+        "offset": 3.6,
+        "conf": 0.799560546875
+      },
+      {
+        "class": "helicopter",
+        "onset": 4.3,
+        "offset": 6.8,
+        "conf": 0.8691210746765137
+      },
+      {
+        "class": "engine",
+        "onset": 6.2,
+        "offset": 6.7,
+        "conf": 0.5567382574081421
+      },
+      {
+        "class": "helicopter",
+        "onset": 7.4,
+        "offset": 8.7,
+        "conf": 0.8218148946762085
+      },
+      {
+        "class": "engine",
+        "onset": 7.8,
+        "offset": 8.4,
+        "conf": 0.5486246943473816
+      },
+      {
+        "class": "footsteps",
+        "onset": 9.0,
+        "offset": 9.4,
+        "conf": 0.8095703125
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 1.723,
+        "offset": 3.765,
+        "source": "5-209992-B-44.wav",
+        "rms_db": -19.8
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 4.314,
+        "offset": 6.814,
+        "source": "5-177957-E-40.wav",
+        "rms_db": -24.2
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 7.416,
+        "offset": 8.685,
+        "source": "5-177957-B-40.wav",
+        "rms_db": -19.0
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 9.023,
+        "offset": 9.439,
+        "source": "5-234263-A-25.wav",
+        "rms_db": -19.2
+      }
+    ]
+  },
+  {
+    "qid": "test_00022_q09",
+    "scene_id": "test_00022",
+    "question": "What sound begins just before the footsteps sound begins?",
+    "options": [
+      "nothing",
+      "birds chirping",
+      "helicopter",
+      "engine"
+    ],
+    "ground_truth_answer": "helicopter",
+    "predicted_answer": "engine",
+    "oracle_answer": "helicopter",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "helicopter",
+        "onset": 1.7,
+        "offset": 3.7,
+        "conf": 0.637194812297821
+      },
+      {
+        "class": "engine",
+        "onset": 1.8,
+        "offset": 3.6,
+        "conf": 0.799560546875
+      },
+      {
+        "class": "helicopter",
+        "onset": 4.3,
+        "offset": 6.8,
+        "conf": 0.8691210746765137
+      },
+      {
+        "class": "engine",
+        "onset": 6.2,
+        "offset": 6.7,
+        "conf": 0.5567382574081421
+      },
+      {
+        "class": "helicopter",
+        "onset": 7.4,
+        "offset": 8.7,
+        "conf": 0.8218148946762085
+      },
+      {
+        "class": "engine",
+        "onset": 7.8,
+        "offset": 8.4,
+        "conf": 0.5486246943473816
+      },
+      {
+        "class": "footsteps",
+        "onset": 9.0,
+        "offset": 9.4,
+        "conf": 0.8095703125
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 1.723,
+        "offset": 3.765,
+        "source": "5-209992-B-44.wav",
+        "rms_db": -19.8
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 4.314,
+        "offset": 6.814,
+        "source": "5-177957-E-40.wav",
+        "rms_db": -24.2
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 7.416,
+        "offset": 8.685,
+        "source": "5-177957-B-40.wav",
+        "rms_db": -19.0
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 9.023,
+        "offset": 9.439,
+        "source": "5-234263-A-25.wav",
+        "rms_db": -19.2
+      }
+    ]
+  },
+  {
+    "qid": "test_00022_q10",
+    "scene_id": "test_00022",
+    "question": "Why is the earliest sound in this audio being heard?",
+    "options": [
+      "a visitor is trying to get attention at the door",
+      "a motor vehicle or engine is running nearby",
+      "people are celebrating a festival or event",
+      "a cow is calling out on a farm"
+    ],
+    "ground_truth_answer": "a motor vehicle or engine is running nearby",
+    "predicted_answer": "a visitor is trying to get attention at the door",
+    "oracle_answer": "a motor vehicle or engine is running nearby",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "helicopter",
+        "onset": 1.7,
+        "offset": 3.7,
+        "conf": 0.637194812297821
+      },
+      {
+        "class": "engine",
+        "onset": 1.8,
+        "offset": 3.6,
+        "conf": 0.799560546875
+      },
+      {
+        "class": "helicopter",
+        "onset": 4.3,
+        "offset": 6.8,
+        "conf": 0.8691210746765137
+      },
+      {
+        "class": "engine",
+        "onset": 6.2,
+        "offset": 6.7,
+        "conf": 0.5567382574081421
+      },
+      {
+        "class": "helicopter",
+        "onset": 7.4,
+        "offset": 8.7,
+        "conf": 0.8218148946762085
+      },
+      {
+        "class": "engine",
+        "onset": 7.8,
+        "offset": 8.4,
+        "conf": 0.5486246943473816
+      },
+      {
+        "class": "footsteps",
+        "onset": 9.0,
+        "offset": 9.4,
+        "conf": 0.8095703125
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 1.723,
+        "offset": 3.765,
+        "source": "5-209992-B-44.wav",
+        "rms_db": -19.8
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 4.314,
+        "offset": 6.814,
+        "source": "5-177957-E-40.wav",
+        "rms_db": -24.2
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 7.416,
+        "offset": 8.685,
+        "source": "5-177957-B-40.wav",
+        "rms_db": -19.0
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 9.023,
+        "offset": 9.439,
+        "source": "5-234263-A-25.wav",
+        "rms_db": -19.2
+      }
+    ]
+  },
+  {
+    "qid": "test_00024_q03",
+    "scene_id": "test_00024",
+    "question": "Is the train sound present in this audio?",
+    "options": [
+      "yes",
+      "no"
+    ],
+    "ground_truth_answer": "no",
+    "predicted_answer": "yes",
+    "oracle_answer": "no",
+    "error_category": "spurious_event",
+    "predicted_timeline": [
+      {
+        "class": "helicopter",
+        "onset": 0.4,
+        "offset": 1.8,
+        "conf": 0.9513462781906128
+      },
+      {
+        "class": "helicopter",
+        "onset": 4.0,
+        "offset": 5.6,
+        "conf": 0.8775634765625
+      },
+      {
+        "class": "car_horn",
+        "onset": 5.1,
+        "offset": 9.0,
+        "conf": 0.9348457455635071
+      },
+      {
+        "class": "train",
+        "onset": 7.4,
+        "offset": 8.8,
+        "conf": 0.7271903157234192
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 0.441,
+        "offset": 1.81,
+        "source": "5-177957-D-40.wav",
+        "rms_db": -23.8
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 4.013,
+        "offset": 6.513,
+        "source": "5-177957-D-40.wav",
+        "rms_db": -18.7
+      },
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 5.387,
+        "offset": 7.798,
+        "source": "5-180156-B-43.wav",
+        "rms_db": -22.9
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 7.427,
+        "offset": 8.953,
+        "source": "5-191131-A-40.wav",
+        "rms_db": -21.0
+      }
+    ]
+  },
+  {
+    "qid": "test_00024_q05",
+    "scene_id": "test_00024",
+    "question": "How many separate helicopter sounds are there in the recording?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "ground_truth_answer": "3",
+    "predicted_answer": "2",
+    "oracle_answer": "3",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "helicopter",
+        "onset": 0.4,
+        "offset": 1.8,
+        "conf": 0.9513462781906128
+      },
+      {
+        "class": "helicopter",
+        "onset": 4.0,
+        "offset": 5.6,
+        "conf": 0.8775634765625
+      },
+      {
+        "class": "car_horn",
+        "onset": 5.1,
+        "offset": 9.0,
+        "conf": 0.9348457455635071
+      },
+      {
+        "class": "train",
+        "onset": 7.4,
+        "offset": 8.8,
+        "conf": 0.7271903157234192
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 0.441,
+        "offset": 1.81,
+        "source": "5-177957-D-40.wav",
+        "rms_db": -23.8
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 4.013,
+        "offset": 6.513,
+        "source": "5-177957-D-40.wav",
+        "rms_db": -18.7
+      },
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 5.387,
+        "offset": 7.798,
+        "source": "5-180156-B-43.wav",
+        "rms_db": -22.9
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 7.427,
+        "offset": 8.953,
+        "source": "5-191131-A-40.wav",
+        "rms_db": -21.0
+      }
+    ]
+  },
+  {
+    "qid": "test_00024_q08",
+    "scene_id": "test_00024",
+    "question": "Which sound is the next one to start after the car horn sound starts?",
+    "options": [
+      "engine",
+      "helicopter",
+      "cough",
+      "nothing"
+    ],
+    "ground_truth_answer": "helicopter",
+    "predicted_answer": "engine",
+    "oracle_answer": "helicopter",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "helicopter",
+        "onset": 0.4,
+        "offset": 1.8,
+        "conf": 0.9513462781906128
+      },
+      {
+        "class": "helicopter",
+        "onset": 4.0,
+        "offset": 5.6,
+        "conf": 0.8775634765625
+      },
+      {
+        "class": "car_horn",
+        "onset": 5.1,
+        "offset": 9.0,
+        "conf": 0.9348457455635071
+      },
+      {
+        "class": "train",
+        "onset": 7.4,
+        "offset": 8.8,
+        "conf": 0.7271903157234192
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 0.441,
+        "offset": 1.81,
+        "source": "5-177957-D-40.wav",
+        "rms_db": -23.8
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 4.013,
+        "offset": 6.513,
+        "source": "5-177957-D-40.wav",
+        "rms_db": -18.7
+      },
+      {
+        "class": "car_horn",
+        "label": "car horn",
+        "onset": 5.387,
+        "offset": 7.798,
+        "source": "5-180156-B-43.wav",
+        "rms_db": -22.9
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 7.427,
+        "offset": 8.953,
+        "source": "5-191131-A-40.wav",
+        "rms_db": -21.0
+      }
+    ]
+  },
+  {
+    "qid": "test_00028_q05",
+    "scene_id": "test_00028",
+    "question": "How many times does the helicopter sound occur?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "ground_truth_answer": "1",
+    "predicted_answer": "2",
+    "oracle_answer": "1",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "engine",
+        "onset": 2.0,
+        "offset": 3.2,
+        "conf": 0.8809000849723816
+      },
+      {
+        "class": "helicopter",
+        "onset": 2.9,
+        "offset": 6.2,
+        "conf": 0.921934187412262
+      },
+      {
+        "class": "engine",
+        "onset": 4.7,
+        "offset": 6.1,
+        "conf": 0.6353934407234192
+      },
+      {
+        "class": "engine",
+        "onset": 7.1,
+        "offset": 9.6,
+        "conf": 0.9119531512260437
+      },
+      {
+        "class": "helicopter",
+        "onset": 9.1,
+        "offset": 9.5,
+        "conf": 0.60546875
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 1.975,
+        "offset": 3.095,
+        "source": "5-209992-A-44.wav",
+        "rms_db": -18.2
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 2.954,
+        "offset": 5.454,
+        "source": "5-177957-B-40.wav",
+        "rms_db": -18.6
+      },
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 4.517,
+        "offset": 6.254,
+        "source": "5-209992-B-44.wav",
+        "rms_db": -16.1
+      },
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 7.1,
+        "offset": 9.6,
+        "source": "5-232272-A-44.wav",
+        "rms_db": -18.4
+      }
+    ]
+  },
+  {
+    "qid": "test_00029_q09",
+    "scene_id": "test_00029",
+    "question": "Are the cough sound and the glass breaking sound heard at the same time?",
+    "options": [
+      "yes",
+      "no"
+    ],
+    "ground_truth_answer": "yes",
+    "predicted_answer": "no",
+    "oracle_answer": "yes",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "glass_breaking",
+        "onset": 0.9,
+        "offset": 1.5,
+        "conf": 0.8531087040901184
+      },
+      {
+        "class": "glass_breaking",
+        "onset": 2.1,
+        "offset": 2.9,
+        "conf": 0.93255615234375
+      },
+      {
+        "class": "glass_breaking",
+        "onset": 5.9,
+        "offset": 6.3,
+        "conf": 0.976806640625
+      },
+      {
+        "class": "glass_breaking",
+        "onset": 7.3,
+        "offset": 7.7,
+        "conf": 0.947265625
+      },
+      {
+        "class": "coughing",
+        "onset": 7.7,
+        "offset": 8.4,
+        "conf": 0.6923130750656128
+      },
+      {
+        "class": "sneezing",
+        "onset": 7.7,
+        "offset": 8.4,
+        "conf": 0.6570870280265808
+      },
+      {
+        "class": "glass_breaking",
+        "onset": 8.8,
+        "offset": 9.3,
+        "conf": 0.971875011920929
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "glass_breaking",
+        "label": "glass breaking",
+        "onset": 0.936,
+        "offset": 1.48,
+        "source": "5-233607-A-39.wav",
+        "rms_db": -20.5
+      },
+      {
+        "class": "glass_breaking",
+        "label": "glass breaking",
+        "onset": 2.13,
+        "offset": 2.866,
+        "source": "5-260434-A-39.wav",
+        "rms_db": -23.1
+      },
+      {
+        "class": "glass_breaking",
+        "label": "glass breaking",
+        "onset": 5.898,
+        "offset": 6.346,
+        "source": "5-221528-A-39.wav",
+        "rms_db": -17.9
+      },
+      {
+        "class": "glass_breaking",
+        "label": "glass breaking",
+        "onset": 7.327,
+        "offset": 7.903,
+        "source": "5-260432-A-39.wav",
+        "rms_db": -17.6
+      },
+      {
+        "class": "coughing",
+        "label": "cough",
+        "onset": 7.667,
+        "offset": 8.488,
+        "source": "5-208761-A-24.wav",
+        "rms_db": -23.2
+      },
+      {
+        "class": "glass_breaking",
+        "label": "glass breaking",
+        "onset": 8.766,
+        "offset": 9.374,
+        "source": "5-257642-A-39.wav",
+        "rms_db": -23.8
+      }
+    ]
+  },
+  {
+    "qid": "test_00032_q10",
+    "scene_id": "test_00032",
+    "question": "What is the most likely reason for the first sound in the recording?",
+    "options": [
+      "an audience is applauding",
+      "someone is walking nearby",
+      "a glass object was dropped or smashed",
+      "someone found something amusing"
+    ],
+    "ground_truth_answer": "someone found something amusing",
+    "predicted_answer": "an audience is applauding",
+    "oracle_answer": "someone found something amusing",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "fireworks",
+        "onset": 1.0,
+        "offset": 1.8,
+        "conf": 0.8687744140625
+      },
+      {
+        "class": "laughing",
+        "onset": 1.5,
+        "offset": 3.5,
+        "conf": 0.9444580078125
+      },
+      {
+        "class": "laughing",
+        "onset": 4.7,
+        "offset": 5.5,
+        "conf": 0.9195556640625
+      },
+      {
+        "class": "clapping",
+        "onset": 5.4,
+        "offset": 7.9,
+        "conf": 0.9942968487739563
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "laughing",
+        "label": "laughter",
+        "onset": 1.019,
+        "offset": 3.491,
+        "source": "5-259514-A-26.wav",
+        "rms_db": -25.5
+      },
+      {
+        "class": "laughing",
+        "label": "laughter",
+        "onset": 4.685,
+        "offset": 5.397,
+        "source": "5-263775-A-26.wav",
+        "rms_db": -16.3
+      },
+      {
+        "class": "clapping",
+        "label": "clapping",
+        "onset": 5.418,
+        "offset": 7.918,
+        "source": "5-209989-A-22.wav",
+        "rms_db": -19.4
+      }
+    ]
+  },
+  {
+    "qid": "test_00033_q06",
+    "scene_id": "test_00033",
+    "question": "Which sound occurs first: the engine sound or the siren sound?",
+    "options": [
+      "engine",
+      "siren"
+    ],
+    "ground_truth_answer": "engine",
+    "predicted_answer": "siren",
+    "oracle_answer": "engine",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "train",
+        "onset": 0.5,
+        "offset": 3.0,
+        "conf": 0.9507812261581421
+      },
+      {
+        "class": "siren",
+        "onset": 4.0,
+        "offset": 5.2,
+        "conf": 0.9756672978401184
+      },
+      {
+        "class": "engine",
+        "onset": 5.4,
+        "offset": 6.5,
+        "conf": 0.7003284692764282
+      },
+      {
+        "class": "train",
+        "onset": 6.4,
+        "offset": 8.9,
+        "conf": 0.933789074420929
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "train",
+        "label": "train",
+        "onset": 0.43,
+        "offset": 2.925,
+        "source": "5-199284-B-45.wav",
+        "rms_db": -17.8
+      },
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 2.201,
+        "offset": 3.419,
+        "source": "5-209992-B-44.wav",
+        "rms_db": -24.7
+      },
+      {
+        "class": "siren",
+        "label": "siren",
+        "onset": 4.006,
+        "offset": 5.185,
+        "source": "5-117120-A-42.wav",
+        "rms_db": -23.5
+      },
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 4.516,
+        "offset": 7.016,
+        "source": "5-209992-B-44.wav",
+        "rms_db": -21.8
+      },
+      {
+        "class": "train",
+        "label": "train",
+        "onset": 6.443,
+        "offset": 8.866,
+        "source": "5-199284-A-45.wav",
+        "rms_db": -17.2
+      }
+    ]
+  },
+  {
+    "qid": "test_00033_q09",
+    "scene_id": "test_00033",
+    "question": "Which sound was the last one to start before the siren sound starts?",
+    "options": [
+      "engine",
+      "nothing",
+      "church bells",
+      "train"
+    ],
+    "ground_truth_answer": "engine",
+    "predicted_answer": "train",
+    "oracle_answer": "engine",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "train",
+        "onset": 0.5,
+        "offset": 3.0,
+        "conf": 0.9507812261581421
+      },
+      {
+        "class": "siren",
+        "onset": 4.0,
+        "offset": 5.2,
+        "conf": 0.9756672978401184
+      },
+      {
+        "class": "engine",
+        "onset": 5.4,
+        "offset": 6.5,
+        "conf": 0.7003284692764282
+      },
+      {
+        "class": "train",
+        "onset": 6.4,
+        "offset": 8.9,
+        "conf": 0.933789074420929
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "train",
+        "label": "train",
+        "onset": 0.43,
+        "offset": 2.925,
+        "source": "5-199284-B-45.wav",
+        "rms_db": -17.8
+      },
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 2.201,
+        "offset": 3.419,
+        "source": "5-209992-B-44.wav",
+        "rms_db": -24.7
+      },
+      {
+        "class": "siren",
+        "label": "siren",
+        "onset": 4.006,
+        "offset": 5.185,
+        "source": "5-117120-A-42.wav",
+        "rms_db": -23.5
+      },
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 4.516,
+        "offset": 7.016,
+        "source": "5-209992-B-44.wav",
+        "rms_db": -21.8
+      },
+      {
+        "class": "train",
+        "label": "train",
+        "onset": 6.443,
+        "offset": 8.866,
+        "source": "5-199284-A-45.wav",
+        "rms_db": -17.2
+      }
+    ]
+  },
+  {
+    "qid": "test_00033_q11",
+    "scene_id": "test_00033",
+    "question": "Do the train sound and the engine sound overlap in time?",
+    "options": [
+      "yes",
+      "no"
+    ],
+    "ground_truth_answer": "yes",
+    "predicted_answer": "no",
+    "oracle_answer": "yes",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "train",
+        "onset": 0.5,
+        "offset": 3.0,
+        "conf": 0.9507812261581421
+      },
+      {
+        "class": "siren",
+        "onset": 4.0,
+        "offset": 5.2,
+        "conf": 0.9756672978401184
+      },
+      {
+        "class": "engine",
+        "onset": 5.4,
+        "offset": 6.5,
+        "conf": 0.7003284692764282
+      },
+      {
+        "class": "train",
+        "onset": 6.4,
+        "offset": 8.9,
+        "conf": 0.933789074420929
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "train",
+        "label": "train",
+        "onset": 0.43,
+        "offset": 2.925,
+        "source": "5-199284-B-45.wav",
+        "rms_db": -17.8
+      },
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 2.201,
+        "offset": 3.419,
+        "source": "5-209992-B-44.wav",
+        "rms_db": -24.7
+      },
+      {
+        "class": "siren",
+        "label": "siren",
+        "onset": 4.006,
+        "offset": 5.185,
+        "source": "5-117120-A-42.wav",
+        "rms_db": -23.5
+      },
+      {
+        "class": "engine",
+        "label": "engine",
+        "onset": 4.516,
+        "offset": 7.016,
+        "source": "5-209992-B-44.wav",
+        "rms_db": -21.8
+      },
+      {
+        "class": "train",
+        "label": "train",
+        "onset": 6.443,
+        "offset": 8.866,
+        "source": "5-199284-A-45.wav",
+        "rms_db": -17.2
+      }
+    ]
+  },
+  {
+    "qid": "test_00036_q14",
+    "scene_id": "test_00036",
+    "question": "Does this recording contain a sound that should alert a deaf listener?",
+    "options": [
+      "yes",
+      "no"
+    ],
+    "ground_truth_answer": "no",
+    "predicted_answer": "yes",
+    "oracle_answer": "no",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "train",
+        "onset": 0.8,
+        "offset": 3.4,
+        "conf": 0.9653132557868958
+      },
+      {
+        "class": "siren",
+        "onset": 6.5,
+        "offset": 7.4,
+        "conf": 0.7446831464767456
+      },
+      {
+        "class": "helicopter",
+        "onset": 6.9,
+        "offset": 8.2,
+        "conf": 0.8662484884262085
+      },
+      {
+        "class": "siren",
+        "onset": 7.7,
+        "offset": 8.1,
+        "conf": 0.5408935546875
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "train",
+        "label": "train",
+        "onset": 0.831,
+        "offset": 3.331,
+        "source": "5-198600-A-45.wav",
+        "rms_db": -27.7
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 6.913,
+        "offset": 8.148,
+        "source": "5-177957-B-40.wav",
+        "rms_db": -22.8
+      }
+    ]
+  },
+  {
+    "qid": "test_00037_q00",
+    "scene_id": "test_00037",
+    "question": "Which sound is present in this audio clip?",
+    "options": [
+      "sheep",
+      "cough",
+      "engine",
+      "helicopter"
+    ],
+    "ground_truth_answer": "helicopter",
+    "predicted_answer": "sheep",
+    "oracle_answer": "helicopter",
+    "error_category": "missed_event",
+    "predicted_timeline": [
+      {
+        "class": "train",
+        "onset": 3.2,
+        "offset": 5.9,
+        "conf": 0.947265625
+      },
+      {
+        "class": "train",
+        "onset": 6.6,
+        "offset": 9.2,
+        "conf": 0.9747596383094788
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 1.278,
+        "offset": 3.778,
+        "source": "5-220955-A-40.wav",
+        "rms_db": -23.7
+      },
+      {
+        "class": "train",
+        "label": "train",
+        "onset": 3.296,
+        "offset": 5.66,
+        "source": "5-197121-B-45.wav",
+        "rms_db": -20.3
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 5.533,
+        "offset": 8.033,
+        "source": "5-177957-C-40.wav",
+        "rms_db": -25.0
+      },
+      {
+        "class": "train",
+        "label": "train",
+        "onset": 6.675,
+        "offset": 9.175,
+        "source": "5-198600-A-45.wav",
+        "rms_db": -16.5
+      }
+    ]
+  },
+  {
+    "qid": "test_00037_q05",
+    "scene_id": "test_00037",
+    "question": "How many times does the helicopter sound occur?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "ground_truth_answer": "2",
+    "predicted_answer": "0",
+    "oracle_answer": "2",
+    "error_category": "missed_event",
+    "predicted_timeline": [
+      {
+        "class": "train",
+        "onset": 3.2,
+        "offset": 5.9,
+        "conf": 0.947265625
+      },
+      {
+        "class": "train",
+        "onset": 6.6,
+        "offset": 9.2,
+        "conf": 0.9747596383094788
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 1.278,
+        "offset": 3.778,
+        "source": "5-220955-A-40.wav",
+        "rms_db": -23.7
+      },
+      {
+        "class": "train",
+        "label": "train",
+        "onset": 3.296,
+        "offset": 5.66,
+        "source": "5-197121-B-45.wav",
+        "rms_db": -20.3
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 5.533,
+        "offset": 8.033,
+        "source": "5-177957-C-40.wav",
+        "rms_db": -25.0
+      },
+      {
+        "class": "train",
+        "label": "train",
+        "onset": 6.675,
+        "offset": 9.175,
+        "source": "5-198600-A-45.wav",
+        "rms_db": -16.5
+      }
+    ]
+  },
+  {
+    "qid": "test_00037_q06",
+    "scene_id": "test_00037",
+    "question": "Which sound occurs first: the helicopter sound or the train sound?",
+    "options": [
+      "helicopter",
+      "train"
+    ],
+    "ground_truth_answer": "helicopter",
+    "predicted_answer": "train",
+    "oracle_answer": "helicopter",
+    "error_category": "missed_event",
+    "predicted_timeline": [
+      {
+        "class": "train",
+        "onset": 3.2,
+        "offset": 5.9,
+        "conf": 0.947265625
+      },
+      {
+        "class": "train",
+        "onset": 6.6,
+        "offset": 9.2,
+        "conf": 0.9747596383094788
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 1.278,
+        "offset": 3.778,
+        "source": "5-220955-A-40.wav",
+        "rms_db": -23.7
+      },
+      {
+        "class": "train",
+        "label": "train",
+        "onset": 3.296,
+        "offset": 5.66,
+        "source": "5-197121-B-45.wav",
+        "rms_db": -20.3
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 5.533,
+        "offset": 8.033,
+        "source": "5-177957-C-40.wav",
+        "rms_db": -25.0
+      },
+      {
+        "class": "train",
+        "label": "train",
+        "onset": 6.675,
+        "offset": 9.175,
+        "source": "5-198600-A-45.wav",
+        "rms_db": -16.5
+      }
+    ]
+  },
+  {
+    "qid": "test_00037_q07",
+    "scene_id": "test_00037",
+    "question": "Is the helicopter sound heard earlier than the train sound?",
+    "options": [
+      "yes",
+      "no"
+    ],
+    "ground_truth_answer": "yes",
+    "predicted_answer": "no",
+    "oracle_answer": "yes",
+    "error_category": "missed_event",
+    "predicted_timeline": [
+      {
+        "class": "train",
+        "onset": 3.2,
+        "offset": 5.9,
+        "conf": 0.947265625
+      },
+      {
+        "class": "train",
+        "onset": 6.6,
+        "offset": 9.2,
+        "conf": 0.9747596383094788
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 1.278,
+        "offset": 3.778,
+        "source": "5-220955-A-40.wav",
+        "rms_db": -23.7
+      },
+      {
+        "class": "train",
+        "label": "train",
+        "onset": 3.296,
+        "offset": 5.66,
+        "source": "5-197121-B-45.wav",
+        "rms_db": -20.3
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 5.533,
+        "offset": 8.033,
+        "source": "5-177957-C-40.wav",
+        "rms_db": -25.0
+      },
+      {
+        "class": "train",
+        "label": "train",
+        "onset": 6.675,
+        "offset": 9.175,
+        "source": "5-198600-A-45.wav",
+        "rms_db": -16.5
+      }
+    ]
+  },
+  {
+    "qid": "test_00037_q08",
+    "scene_id": "test_00037",
+    "question": "Why is the earliest sound in this audio being heard?",
+    "options": [
+      "a sheep is calling to its flock",
+      "a helicopter is flying overhead",
+      "a motor vehicle or engine is running nearby",
+      "an audience is applauding"
+    ],
+    "ground_truth_answer": "a helicopter is flying overhead",
+    "predicted_answer": "a sheep is calling to its flock",
+    "oracle_answer": "a helicopter is flying overhead",
+    "error_category": "missed_event",
+    "predicted_timeline": [
+      {
+        "class": "train",
+        "onset": 3.2,
+        "offset": 5.9,
+        "conf": 0.947265625
+      },
+      {
+        "class": "train",
+        "onset": 6.6,
+        "offset": 9.2,
+        "conf": 0.9747596383094788
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 1.278,
+        "offset": 3.778,
+        "source": "5-220955-A-40.wav",
+        "rms_db": -23.7
+      },
+      {
+        "class": "train",
+        "label": "train",
+        "onset": 3.296,
+        "offset": 5.66,
+        "source": "5-197121-B-45.wav",
+        "rms_db": -20.3
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 5.533,
+        "offset": 8.033,
+        "source": "5-177957-C-40.wav",
+        "rms_db": -25.0
+      },
+      {
+        "class": "train",
+        "label": "train",
+        "onset": 6.675,
+        "offset": 9.175,
+        "source": "5-198600-A-45.wav",
+        "rms_db": -16.5
+      }
+    ]
+  },
+  {
+    "qid": "test_00037_q09",
+    "scene_id": "test_00037",
+    "question": "Do the train sound and the helicopter sound overlap in time?",
+    "options": [
+      "yes",
+      "no"
+    ],
+    "ground_truth_answer": "yes",
+    "predicted_answer": "no",
+    "oracle_answer": "yes",
+    "error_category": "missed_event",
+    "predicted_timeline": [
+      {
+        "class": "train",
+        "onset": 3.2,
+        "offset": 5.9,
+        "conf": 0.947265625
+      },
+      {
+        "class": "train",
+        "onset": 6.6,
+        "offset": 9.2,
+        "conf": 0.9747596383094788
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 1.278,
+        "offset": 3.778,
+        "source": "5-220955-A-40.wav",
+        "rms_db": -23.7
+      },
+      {
+        "class": "train",
+        "label": "train",
+        "onset": 3.296,
+        "offset": 5.66,
+        "source": "5-197121-B-45.wav",
+        "rms_db": -20.3
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 5.533,
+        "offset": 8.033,
+        "source": "5-177957-C-40.wav",
+        "rms_db": -25.0
+      },
+      {
+        "class": "train",
+        "label": "train",
+        "onset": 6.675,
+        "offset": 9.175,
+        "source": "5-198600-A-45.wav",
+        "rms_db": -16.5
+      }
+    ]
+  },
+  {
+    "qid": "test_00038_q09",
+    "scene_id": "test_00038",
+    "question": "Which sound was the last one to start before the laughter sound starts?",
+    "options": [
+      "fireworks",
+      "nothing",
+      "engine",
+      "church bells"
+    ],
+    "ground_truth_answer": "fireworks",
+    "predicted_answer": "church bells",
+    "oracle_answer": "fireworks",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "church_bells",
+        "onset": 1.4,
+        "offset": 3.4,
+        "conf": 0.956298828125
+      },
+      {
+        "class": "fireworks",
+        "onset": 2.7,
+        "offset": 4.5,
+        "conf": 0.935791015625
+      },
+      {
+        "class": "church_bells",
+        "onset": 5.0,
+        "offset": 6.1,
+        "conf": 0.9476651549339294
+      },
+      {
+        "class": "fireworks",
+        "onset": 5.7,
+        "offset": 7.3,
+        "conf": 0.874053955078125
+      },
+      {
+        "class": "laughing",
+        "onset": 5.9,
+        "offset": 9.4,
+        "conf": 0.9255301356315613
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "church_bells",
+        "label": "church bells",
+        "onset": 1.482,
+        "offset": 3.507,
+        "source": "5-201172-A-46.wav",
+        "rms_db": -26.3
+      },
+      {
+        "class": "fireworks",
+        "label": "fireworks",
+        "onset": 2.367,
+        "offset": 4.419,
+        "source": "5-160614-D-48.wav",
+        "rms_db": -26.1
+      },
+      {
+        "class": "church_bells",
+        "label": "church bells",
+        "onset": 4.997,
+        "offset": 6.039,
+        "source": "5-201172-A-46.wav",
+        "rms_db": -26.1
+      },
+      {
+        "class": "fireworks",
+        "label": "fireworks",
+        "onset": 5.71,
+        "offset": 8.12,
+        "source": "5-160614-F-48.wav",
+        "rms_db": -20.0
+      },
+      {
+        "class": "laughing",
+        "label": "laughter",
+        "onset": 6.948,
+        "offset": 9.448,
+        "source": "5-171118-A-26.wav",
+        "rms_db": -18.0
+      }
+    ]
+  },
+  {
+    "qid": "test_00039_q09",
+    "scene_id": "test_00039",
+    "question": "Which sound was the last one to start before the fireworks sound starts?",
+    "options": [
+      "dog bark",
+      "church bells",
+      "nothing",
+      "clapping"
+    ],
+    "ground_truth_answer": "clapping",
+    "predicted_answer": "church bells",
+    "oracle_answer": "clapping",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "church_bells",
+        "onset": 1.5,
+        "offset": 4.0,
+        "conf": 0.9949414134025574
+      },
+      {
+        "class": "clapping",
+        "onset": 6.5,
+        "offset": 8.0,
+        "conf": 0.6989908814430237
+      },
+      {
+        "class": "fireworks",
+        "onset": 6.7,
+        "offset": 9.5,
+        "conf": 0.9353550672531128
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "church_bells",
+        "label": "church bells",
+        "onset": 1.516,
+        "offset": 4.016,
+        "source": "5-201170-A-46.wav",
+        "rms_db": -16.6
+      },
+      {
+        "class": "clapping",
+        "label": "clapping",
+        "onset": 6.45,
+        "offset": 8.606,
+        "source": "5-262957-A-22.wav",
+        "rms_db": -26.1
+      },
+      {
+        "class": "fireworks",
+        "label": "fireworks",
+        "onset": 8.39,
+        "offset": 9.518,
+        "source": "5-160614-H-48.wav",
+        "rms_db": -21.9
+      }
+    ]
+  },
+  {
+    "qid": "test_00040_q04",
+    "scene_id": "test_00040",
+    "question": "How many times does the helicopter sound occur?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "ground_truth_answer": "2",
+    "predicted_answer": "1",
+    "oracle_answer": "2",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "helicopter",
+        "onset": 5.3,
+        "offset": 5.8,
+        "conf": 0.5401366949081421
+      },
+      {
+        "class": "footsteps",
+        "onset": 6.7,
+        "offset": 8.7,
+        "conf": 0.982006847858429
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 1.063,
+        "offset": 3.563,
+        "source": "5-220955-A-40.wav",
+        "rms_db": -22.1
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 3.848,
+        "offset": 4.264,
+        "source": "5-234263-A-25.wav",
+        "rms_db": -23.3
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 4.919,
+        "offset": 6.625,
+        "source": "5-205898-A-40.wav",
+        "rms_db": -21.4
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 6.802,
+        "offset": 8.686,
+        "source": "5-243025-A-25.wav",
+        "rms_db": -16.0
+      }
+    ]
+  },
+  {
+    "qid": "test_00040_q09",
+    "scene_id": "test_00040",
+    "question": "What is the most likely reason for the longest sound in the recording?",
+    "options": [
+      "a train is passing by",
+      "an alarm was set to wake someone or mark a time",
+      "a helicopter is flying overhead",
+      "someone is walking nearby"
+    ],
+    "ground_truth_answer": "a helicopter is flying overhead",
+    "predicted_answer": "someone is walking nearby",
+    "oracle_answer": "a helicopter is flying overhead",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "helicopter",
+        "onset": 5.3,
+        "offset": 5.8,
+        "conf": 0.5401366949081421
+      },
+      {
+        "class": "footsteps",
+        "onset": 6.7,
+        "offset": 8.7,
+        "conf": 0.982006847858429
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 1.063,
+        "offset": 3.563,
+        "source": "5-220955-A-40.wav",
+        "rms_db": -22.1
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 3.848,
+        "offset": 4.264,
+        "source": "5-234263-A-25.wav",
+        "rms_db": -23.3
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 4.919,
+        "offset": 6.625,
+        "source": "5-205898-A-40.wav",
+        "rms_db": -21.4
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 6.802,
+        "offset": 8.686,
+        "source": "5-243025-A-25.wav",
+        "rms_db": -16.0
+      }
+    ]
+  },
+  {
+    "qid": "test_00040_q10",
+    "scene_id": "test_00040",
+    "question": "Which sound event has the longest duration?",
+    "options": [
+      "footsteps",
+      "car horn",
+      "rooster",
+      "helicopter"
+    ],
+    "ground_truth_answer": "helicopter",
+    "predicted_answer": "footsteps",
+    "oracle_answer": "helicopter",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "helicopter",
+        "onset": 5.3,
+        "offset": 5.8,
+        "conf": 0.5401366949081421
+      },
+      {
+        "class": "footsteps",
+        "onset": 6.7,
+        "offset": 8.7,
+        "conf": 0.982006847858429
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 1.063,
+        "offset": 3.563,
+        "source": "5-220955-A-40.wav",
+        "rms_db": -22.1
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 3.848,
+        "offset": 4.264,
+        "source": "5-234263-A-25.wav",
+        "rms_db": -23.3
+      },
+      {
+        "class": "helicopter",
+        "label": "helicopter",
+        "onset": 4.919,
+        "offset": 6.625,
+        "source": "5-205898-A-40.wav",
+        "rms_db": -21.4
+      },
+      {
+        "class": "footsteps",
+        "label": "footsteps",
+        "onset": 6.802,
+        "offset": 8.686,
+        "source": "5-243025-A-25.wav",
+        "rms_db": -16.0
+      }
+    ]
+  },
+  {
+    "qid": "test_00041_q04",
+    "scene_id": "test_00041",
+    "question": "How many separate sneeze sounds are there in the recording?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "ground_truth_answer": "4",
+    "predicted_answer": "2",
+    "oracle_answer": "4",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "door_wood_knock",
+        "onset": 0.7,
+        "offset": 1.7,
+        "conf": 0.9264160394668579
+      },
+      {
+        "class": "sneezing",
+        "onset": 3.0,
+        "offset": 3.5,
+        "conf": 0.706250011920929
+      },
+      {
+        "class": "sneezing",
+        "onset": 8.3,
+        "offset": 8.7,
+        "conf": 0.6502685546875
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "sneezing",
+        "label": "sneeze",
+        "onset": 0.323,
+        "offset": 0.771,
+        "source": "5-194533-A-21.wav",
+        "rms_db": -26.1
+      },
+      {
+        "class": "door_wood_knock",
+        "label": "door knock",
+        "onset": 0.72,
+        "offset": 1.584,
+        "source": "5-250026-A-30.wav",
+        "rms_db": -20.3
+      },
+      {
+        "class": "sneezing",
+        "label": "sneeze",
+        "onset": 2.957,
+        "offset": 3.533,
+        "source": "5-201274-A-21.wav",
+        "rms_db": -18.5
+      },
+      {
+        "class": "sneezing",
+        "label": "sneeze",
+        "onset": 5.305,
+        "offset": 5.881,
+        "source": "5-201274-A-21.wav",
+        "rms_db": -16.9
+      },
+      {
+        "class": "sneezing",
+        "label": "sneeze",
+        "onset": 8.261,
+        "offset": 8.837,
+        "source": "5-201274-A-21.wav",
+        "rms_db": -25.3
+      },
+      {
+        "class": "door_wood_knock",
+        "label": "door knock",
+        "onset": 8.63,
+        "offset": 9.494,
+        "source": "5-218981-A-30.wav",
+        "rms_db": -21.8
+      }
+    ]
+  },
+  {
+    "qid": "test_00041_q05",
+    "scene_id": "test_00041",
+    "question": "How many times does the door knock sound occur?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "ground_truth_answer": "2",
+    "predicted_answer": "1",
+    "oracle_answer": "2",
+    "error_category": "boundary_or_order",
+    "predicted_timeline": [
+      {
+        "class": "door_wood_knock",
+        "onset": 0.7,
+        "offset": 1.7,
+        "conf": 0.9264160394668579
+      },
+      {
+        "class": "sneezing",
+        "onset": 3.0,
+        "offset": 3.5,
+        "conf": 0.706250011920929
+      },
+      {
+        "class": "sneezing",
+        "onset": 8.3,
+        "offset": 8.7,
+        "conf": 0.6502685546875
+      }
+    ],
+    "ground_truth_timeline": [
+      {
+        "class": "sneezing",
+        "label": "sneeze",
+        "onset": 0.323,
+        "offset": 0.771,
+        "source": "5-194533-A-21.wav",
+        "rms_db": -26.1
+      },
+      {
+        "class": "door_wood_knock",
+        "label": "door knock",
+        "onset": 0.72,
+        "offset": 1.584,
+        "source": "5-250026-A-30.wav",
+        "rms_db": -20.3
+      },
+      {
+        "class": "sneezing",
+        "label": "sneeze",
+        "onset": 2.957,
+        "offset": 3.533,
+        "source": "5-201274-A-21.wav",
+        "rms_db": -18.5
+      },
+      {
+        "class": "sneezing",
+        "label": "sneeze",
+        "onset": 5.305,
+        "offset": 5.881,
+        "source": "5-201274-A-21.wav",
+        "rms_db": -16.9
+      },
+      {
+        "class": "sneezing",
+        "label": "sneeze",
+        "onset": 8.261,
+        "offset": 8.837,
+        "source": "5-201274-A-21.wav",
+        "rms_db": -25.3
+      },
+      {
+        "class": "door_wood_knock",
+        "label": "door knock",
+        "onset": 8.63,
+        "offset": 9.494,
+        "source": "5-218981-A-30.wav",
+        "rms_db": -21.8
+      }
+    ]
+  }
+]

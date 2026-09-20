@@ -1,0 +1,11 @@
+{
+ "backend": "crnn",
+ "trainable_params": 301656,
+ "fp32_size_mb": 1.356331,
+ "cpu_latency_ms_per_10s_fp32_1thread": 56.37304999982007,
+ "real_time_factor_fp32": 0.005637304999982007,
+ "int8_dynamic_size_mb": 0.735839,
+ "cpu_latency_ms_per_10s_int8_1thread": 52.33799999768962,
+ "event_f1_fp32": 0.4601366742596811,
+ "event_f1_int8_dynamic": 0.4571428571428572
+}

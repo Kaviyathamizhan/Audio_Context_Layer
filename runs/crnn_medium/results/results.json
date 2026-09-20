@@ -1,0 +1,306 @@
+{
+  "run": {
+    "backend": "crnn",
+    "trainable_params": 301656,
+    "batch_size": 16,
+    "lr": 0.002,
+    "pos_weight": 4.0,
+    "epochs_run": 25,
+    "best_epoch": 25,
+    "train_seconds": 2250.0,
+    "device": "cpu"
+  },
+  "decode_params": {
+    "thr": 0.6,
+    "min_len": 4,
+    "merge_gap": 2,
+    "median": 1
+  },
+  "n_questions": 1558,
+  "overall_micro": {
+    "ours": 0.739,
+    "ours_ci": [
+      0.7,
+      0.78
+    ],
+    "oracle": 1.0,
+    "prior": 0.401,
+    "chance": 0.344
+  },
+  "overall_macro_over_types": {
+    "ours": 0.721,
+    "oracle": 1.0,
+    "prior": 0.389,
+    "chance": 0.335
+  },
+  "by_type": {
+    "perceptual": {
+      "n": 480,
+      "ours": 0.863,
+      "ours_ci": [
+        0.825,
+        0.9
+      ],
+      "oracle": 1.0,
+      "prior": 0.379,
+      "chance": 0.333
+    },
+    "counting": {
+      "n": 240,
+      "ours": 0.617,
+      "ours_ci": [
+        0.554,
+        0.679
+      ],
+      "oracle": 1.0,
+      "prior": 0.383,
+      "chance": 0.221
+    },
+    "temporal": {
+      "n": 404,
+      "ours": 0.678,
+      "ours_ci": [
+        0.619,
+        0.743
+      ],
+      "oracle": 1.0,
+      "prior": 0.406,
+      "chance": 0.374
+    },
+    "causal": {
+      "n": 162,
+      "ours": 0.704,
+      "ours_ci": [
+        0.625,
+        0.783
+      ],
+      "oracle": 1.0,
+      "prior": 0.235,
+      "chance": 0.278
+    },
+    "other": {
+      "n": 272,
+      "ours": 0.743,
+      "ours_ci": [
+        0.691,
+        0.796
+      ],
+      "oracle": 1.0,
+      "prior": 0.544,
+      "chance": 0.467
+    }
+  },
+  "by_subtype": {
+    "present": {
+      "n": 120,
+      "ours": 0.833,
+      "oracle": 1.0,
+      "prior": 0.283,
+      "chance": 0.25
+    },
+    "scene": {
+      "n": 120,
+      "ours": 0.942,
+      "oracle": 1.0,
+      "prior": 0.217,
+      "chance": 0.225
+    },
+    "exists": {
+      "n": 240,
+      "ours": 0.838,
+      "oracle": 1.0,
+      "prior": 0.508,
+      "chance": 0.429
+    },
+    "count": {
+      "n": 240,
+      "ours": 0.617,
+      "oracle": 1.0,
+      "prior": 0.383,
+      "chance": 0.221
+    },
+    "first": {
+      "n": 116,
+      "ours": 0.69,
+      "oracle": 1.0,
+      "prior": 0.457,
+      "chance": 0.517
+    },
+    "order": {
+      "n": 116,
+      "ours": 0.741,
+      "oracle": 1.0,
+      "prior": 0.457,
+      "chance": 0.44
+    },
+    "after": {
+      "n": 86,
+      "ours": 0.628,
+      "oracle": 1.0,
+      "prior": 0.302,
+      "chance": 0.256
+    },
+    "before": {
+      "n": 86,
+      "ours": 0.628,
+      "oracle": 1.0,
+      "prior": 0.372,
+      "chance": 0.209
+    },
+    "cause_first": {
+      "n": 116,
+      "ours": 0.724,
+      "oracle": 1.0,
+      "prior": 0.224,
+      "chance": 0.284
+    },
+    "overlap": {
+      "n": 106,
+      "ours": 0.566,
+      "oracle": 1.0,
+      "prior": 0.538,
+      "chance": 0.585
+    },
+    "alert": {
+      "n": 120,
+      "ours": 0.95,
+      "oracle": 1.0,
+      "prior": 0.617,
+      "chance": 0.475
+    },
+    "cause_longest": {
+      "n": 46,
+      "ours": 0.652,
+      "oracle": 1.0,
+      "prior": 0.261,
+      "chance": 0.261
+    },
+    "longest": {
+      "n": 46,
+      "ours": 0.609,
+      "oracle": 1.0,
+      "prior": 0.37,
+      "chance": 0.174
+    }
+  },
+  "counting_detail": {
+    "exact": 0.617,
+    "within_1": 0.921,
+    "mae": 0.479,
+    "n": 240
+  },
+  "sed": {
+    "segment_f1_1s": 0.644,
+    "event_f1": 0.46,
+    "n_pred_events": 429,
+    "n_gt_events": 449,
+    "event_f1_per_class": {
+      "car_horn": 0.368,
+      "siren": 0.512,
+      "engine": 0.19,
+      "footsteps": 0.195,
+      "train": 0.361,
+      "helicopter": 0.111,
+      "door_wood_knock": 0.909,
+      "clock_alarm": 0.786,
+      "glass_breaking": 0.71,
+      "vacuum_cleaner": 0.538,
+      "sneezing": 0.333,
+      "coughing": 0.905,
+      "rooster": 0.727,
+      "crow": 0.667,
+      "cow": 0.435,
+      "sheep": 0.222,
+      "dog": 0.632,
+      "chirping_birds": 0.483,
+      "fireworks": 0.044,
+      "clapping": 0.526,
+      "laughing": 0.453,
+      "church_bells": 0.531
+    },
+    "segment_f1_per_class": {
+      "car_horn": 0.66,
+      "siren": 0.613,
+      "engine": 0.395,
+      "footsteps": 0.56,
+      "train": 0.64,
+      "helicopter": 0.248,
+      "door_wood_knock": 0.905,
+      "clock_alarm": 0.83,
+      "glass_breaking": 0.739,
+      "vacuum_cleaner": 0.725,
+      "sneezing": 0.293,
+      "coughing": 0.87,
+      "rooster": 0.764,
+      "crow": 0.938,
+      "cow": 0.706,
+      "sheep": 0.667,
+      "dog": 0.744,
+      "chirping_birds": 0.784,
+      "fireworks": 0.351,
+      "clapping": 0.766,
+      "laughing": 0.73,
+      "church_bells": 0.718
+    }
+  },
+  "errors": {
+    "n_wrong": 406,
+    "cause_counts": {
+      "missed_event": 233,
+      "boundary_or_order": 155,
+      "spurious_event": 18
+    },
+    "top_class_confusions": [
+      {
+        "gt": "fireworks",
+        "detected_as": "church_bells",
+        "count": 6
+      },
+      {
+        "gt": "helicopter",
+        "detected_as": "engine",
+        "count": 5
+      },
+      {
+        "gt": "sneezing",
+        "detected_as": "door_wood_knock",
+        "count": 4
+      },
+      {
+        "gt": "sneezing",
+        "detected_as": "coughing",
+        "count": 4
+      },
+      {
+        "gt": "footsteps",
+        "detected_as": "train",
+        "count": 4
+      },
+      {
+        "gt": "car_horn",
+        "detected_as": "siren",
+        "count": 4
+      },
+      {
+        "gt": "sneezing",
+        "detected_as": "vacuum_cleaner",
+        "count": 3
+      },
+      {
+        "gt": "helicopter",
+        "detected_as": "car_horn",
+        "count": 3
+      },
+      {
+        "gt": "footsteps",
+        "detected_as": "engine",
+        "count": 3
+      },
+      {
+        "gt": "footsteps",
+        "detected_as": "helicopter",
+        "count": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+ "backend": "ast",
+ "trainable_params": 500502,
+ "frozen_ast_backbone_params": 86187264,
+ "note": "AST backbone is frozen and too large for a watch-class device; distil or replace it for deployment."
+}

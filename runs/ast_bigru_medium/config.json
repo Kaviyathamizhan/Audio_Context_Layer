@@ -1,0 +1,19 @@
+{
+ "data": "dataset_mid",
+ "backend": "ast",
+ "out": "runs/ast_bigru_medium",
+ "epochs": 25,
+ "bs": 16,
+ "lr": 0.001,
+ "pos_weight": 4.0,
+ "patience": 10,
+ "limit": null,
+ "ast_model": "MIT/ast-finetuned-audioset-10-10-0.4593",
+ "ast_batch": 8,
+ "ast_random_init": false,
+ "seed": 42,
+ "params": 500502,
+ "device": "cpu",
+ "in_dim": 768,
+ "n_train_scenes": 500
+}
