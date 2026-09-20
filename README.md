@@ -240,7 +240,8 @@ Automatic questions:
 
 Pre-generated synthetic audio scenes, event annotations, and QA records are packaged in the repository under `dataset_mid/` and downloadable at:
 
-`DATASET_LINK_TO_BE_ADDED`
+[Google Drive Dataset Folder](https://drive.google.com/drive/folders/1X23DqrP6YCT2ScpBJJQj7Jr39Lb_qyXM?usp=drive_link)
+(URL: `https://drive.google.com/drive/folders/1X23DqrP6YCT2ScpBJJQj7Jr39Lb_qyXM?usp=drive_link`)
 
 ---
 

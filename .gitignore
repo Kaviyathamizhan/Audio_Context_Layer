@@ -60,6 +60,12 @@ runs/**/predictions/
 runs/**/metrics/
 runs/**/plots/
 
+# Excluded documentation and internal files
+SUBMISSION_CHECKLIST.md
+ACL_Vibe_Coding_Docs/
+CurioNext_Audio_Context_Layer_End_to_End_Pipeline.md
+acl/make_report.py
+
 # Exclude smoke test artifacts and duplicate reports
 runs/smoke_crnn/
 report/smoke_report.pdf
