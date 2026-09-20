@@ -1,0 +1,22 @@
+model:
+  name: "CRNN"
+  backend: "crnn"
+  n_classes: 22
+  n_mels: 64
+  gru_hidden: 64
+  dropout: 0.3
+  trainable_parameters: 301656
+
+training:
+  epochs: 40
+  batch_size: 32
+  learning_rate: 0.002
+  pos_weight: 4.0
+  patience: 10
+  seed: 42
+
+audio:
+  sample_rate: 16000
+  duration_sec: 10.0
+  step_sec: 0.1
+  t_steps: 100
